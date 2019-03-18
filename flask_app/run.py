@@ -1,7 +1,7 @@
 import os
 from waitress import serve
 
-from app import app
+from flask_app.app import app
 from app.server import proxy
 
 if __name__ == '__main__':
