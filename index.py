@@ -7,5 +7,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b'HelloWorld')
+        self.wfile.write(str("Hello from Python on Now 2.0!").encode())
         return
