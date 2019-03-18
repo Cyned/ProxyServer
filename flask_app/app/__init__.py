@@ -11,5 +11,5 @@ app.config.from_object(DefaultConfig)
 
 sys.path.append(app.config['APP_DIR'])
 
-logger = create_logger(app.config["APP_DIR"])
-logger.info('Created application')
+# logger = create_logger(app.config["APP_DIR"])
+# logger.info('Created application')
