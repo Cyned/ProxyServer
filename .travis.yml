@@ -1,7 +1,5 @@
 language: python
 python:
-  - "3.4"
-  - "3.5"
   - "3.6"
 # command to install dependencies
 install:
@@ -11,3 +9,9 @@ script:
   - pytest
 #virtualenv:
 #  system_site_packages: true
+git:
+  depth: 2
+# safelist
+branches:
+  only:
+  - master
