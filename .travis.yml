@@ -15,3 +15,15 @@ git:
 branches:
   only:
   - master
+deploy:
+#- provider: script # Run a custom deployment script which we will define below
+#  script: now --token $nowtoken
+#  skip_cleanup: true
+#  on:
+#    all_branches: true
+#    master: false
+- provider: script
+  script: now --token $now_token && now alias --token $now_token
+  skip_cleanup: true
+  on:
+    master: true

@@ -3,5 +3,6 @@
     "name": "python",
     "builds": [
         { "src": "*.py", "use": "@now/python" }
-    ]
+    ],
+    "alias": "cynedproxy"
 }
