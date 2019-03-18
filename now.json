@@ -2,7 +2,7 @@
     "version": 2,
     "name": "python",
     "builds": [
-        { "src": "flask_app/index.py", "use": "@now/python", "config": { "maxLambdaSize": "30mb" }}
+        { "src": "flask_app/run.py", "use": "@now/python", "config": { "maxLambdaSize": "30mb" }}
     ],
     "alias": "cynedproxy"
 }
