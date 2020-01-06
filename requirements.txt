@@ -3,6 +3,6 @@ requests==2.21.0
 urllib3==1.24.1
 now==0.0.6
 Flask==1.0.2
-waitress==1.2.1
+waitress==1.4.2
 tldextract==2.2.1
 werkzeug==0.14.1
